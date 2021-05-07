@@ -1,0 +1,9 @@
+[package]
+name = "bshell"
+version = "0.1.0"
+authors = ["bsantanad <0211518@up.edu.mx>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
