@@ -34,5 +34,5 @@ cargo run
 The project is still in progress, so this section will probably change in
 the near future
 
-
-
+[blog]: "https://bsantanad.com"
+[nix]: "https://crates.io/crates/nix"
