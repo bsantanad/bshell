@@ -13,7 +13,7 @@ child of the shell. To be honest, I wanted to use `fork()` and then `execvp`,
 meaning, I wanted to fork the shell process and then replace the child with
 the new process by using `execvp` (like one would do in C). Nevertheless, I
 found out that in order to use `fork()` from [nix][nix] in rust, I had to use
-the `unsafe` keyword, and that didn't seem to clean.
+the `unsafe` keyword, and that didn't seem clean.
 
 Therefore, I decided to use the built-in `std::process` to start the processes,
 I guess this does the same `fork()` and `execvp()` under the hood, but don't
